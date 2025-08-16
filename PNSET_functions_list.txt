@@ -1,0 +1,59 @@
+List of the PNSET functions ( 08 / 15 / 2025 )
+
+
+%% GENERIC TOOLS %%
+
+- alGoldbach
+- isprime_optimus
+- next_prime
+o nth_prime
+- previous_prime
+- prime_gap_frequency
+
+
+%% LIST PRIME TYPES %%
+
+- arithmetic_prime_progressions
+- circular_primes
+- cubes_diff_primes
+- Euclid_primes
+- Euler_primes
+- Fermat_primes
+- Mersenne_primes
+- near_square_primes
+- palindrome_primes
+- polynomial_primes
+- Pythagoras_primes
+- twin_primes
+- twin_prime_couples
+- Ulam_primes
+
+
+%% PRIME PROPERTIES DETECTION %%
+
+- is_circular_prime
+- is_cubes_diff_prime
+- is_Euclid_prime 
+- is_Euler_prime
+- is_Fermat_prime
+- is_Mersenne_prime
+- is_near_square_prime
+- is_palindrome_prime
+- is_polynomial_prime
+- is_Pythagoras_prime
+- is_twin_prime
+- is_Ulam1_prime
+- is_Ulam2_prime
+
+
+%% VISUALIZATION %%
+
+- primespiral1
+- primespiral2
+
+
+
+TODO :
+
+- Large numbers handling with strings as input;
+- Reduce 0:n base prime search interval for polynoms
