@@ -1,5 +1,5 @@
-function P = arithmetic_prime_progression(n)
-% arithmetic_prime_progression : function to list the arithmetic
+function P = arithmetic_prime_progressions(n)
+% arithmetic_prime_progressions : function to list the arithmetic
 % progressions of primes, and check for all of them except the first one
 % (3, 5, 7) triplet they verify the preoperty : p' - p = 6k where k is a
 % positive integer, p and p' consecutive members of such progressions.
@@ -40,4 +40,4 @@ for k = 1:size(r_id,1)
 end
 
 
-end % arithmetic_prime_progression
+end % arithmetic_prime_progressions
