@@ -1,4 +1,4 @@
-List of the PNSET functions ( 08 / 15 / 2025 )
+List of the PNSET functions ( 08 / 17 / 2025 )
 
 
 %% GENERIC TOOLS %%
@@ -51,6 +51,10 @@ o nth_prime
 - primespiral1
 - primespiral2
 
+
+%% TESTS %%
+
+- test_isprime_optimus
 
 
 TODO :

@@ -1,12 +1,14 @@
 function is_prime = isprime_optimus(u)
 %% isprime_optimus : function to fast perform primality test.
+% For large verctors input, isprime_optimus is faster than native
+% Matlab(R) isprime function.
 %
 %%% Author : nicolas.douillet9 (at) gmail.com, 2023-2025.
 %
 %
 % Input
 %
-% - u : integer vector sorted in ascending order and starting at 1 (MANDATORY).
+% - u : integer vector sorted in ascending order and starting at 1. Mandatory.
 % 
 %
 % Output

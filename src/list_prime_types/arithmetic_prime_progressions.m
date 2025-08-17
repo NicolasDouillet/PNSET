@@ -31,7 +31,7 @@ b_id = b_id(1:m);
 e_id = e_id(1:m);
 
 r_id = cat(2,b_id',e_id');
-P = {[]};
+P = cell(size(r_id,1),1);
 
 for k = 1:size(r_id,1)
     
