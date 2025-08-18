@@ -9,5 +9,9 @@ function np = nth_prime(n)
 p = primes(1.5*n*log(n));
 np = p(n);
 
+if np > flintmax('double')
+   np = int2str(np); 
+end
+
 
 end % nth_prime

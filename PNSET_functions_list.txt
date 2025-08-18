@@ -6,7 +6,7 @@ List of the PNSET functions ( 08 / 17 / 2025 )
 - alGoldbach
 - isprime_optimus
 - next_prime
-o nth_prime
+- nth_prime
 - previous_prime
 - prime_gap_frequency
 
@@ -59,5 +59,4 @@ o nth_prime
 
 TODO :
 
-- Large numbers handling with strings as input;
 - Reduce 0:n base prime search interval for polynoms
