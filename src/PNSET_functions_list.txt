@@ -20,6 +20,7 @@ List of the PNSET functions ( 08 / 17 / 2025 )
 - Euler_primes
 - Fermat_primes
 - Mersenne_primes
+- mirror_primes
 - near_square_primes
 - palindrome_primes
 - polynomial_primes
@@ -37,6 +38,7 @@ List of the PNSET functions ( 08 / 17 / 2025 )
 - is_Euler_prime
 - is_Fermat_prime
 - is_Mersenne_prime
+- is_mirror_prime
 - is_near_square_prime
 - is_palindrome_prime
 - is_polynomial_prime

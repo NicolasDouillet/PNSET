@@ -1,7 +1,7 @@
 function is_plp = is_palindrome_prime(p)
 % is_palindrome_prime : function to test if a prime number is
-% a palindrome prime. Palindrome primes less to 100 are :
-% 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
+% a palindrome prime. Palindrome primes less than 200 are :
+% 2, 3, 5, 7, 11, 101, 131, 151, 181, and 191.
 %
 % Also works for row/colum vectors.
 %
@@ -11,13 +11,17 @@ function is_plp = is_palindrome_prime(p)
 
 if numel(p) < 2 % scalar input
     
-    is_plp = isprime(p) & isprime(str2double(flip(num2str(p))));
+    is_plp = isprime(p) & strcmp(flip(num2str(p)),num2str(p));
     
 else % vector input
     
-    s = size(p);
-    p = reshape(p,[numel(p),1]);
-    is_plp = reshape((isprime(p) & isprime(str2num(fliplr(num2str(p))))),[s(1),s(2)]);
+    is_plp = false(size(p));
+    
+    for k = 1:numel(p)
+        
+        is_plp(k) = isprime(p(k)) & strcmp(flip(num2str(p(k))),num2str(p(k)));
+    
+    end
     
 end
 
